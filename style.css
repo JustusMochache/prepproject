@@ -101,10 +101,12 @@ footer {
   display: flex;
   margin: 0 auto;
   width: 20%;
-  justify-content: space-evenly;
   margin-top: 30px;
 }
 
+div p {
+  margin-left: 50px;
+}
 
 #tc,
 #tx,
@@ -115,7 +117,6 @@ footer {
 }
 
 #copyright {
-  
   text-align: center;
   color: black;
 }

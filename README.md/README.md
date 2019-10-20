@@ -26,6 +26,11 @@ It also has my contacts.
 
 #### javascript
 
+## BDD
+
+the general behaviours/functionality of the project is that its intuitive on going from one pageto the other with a wordy video that entails what the Author is all about.
+This website was designed to have alittle more information about the Author.
+
 ## license
 
 ### MIT license

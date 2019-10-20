@@ -1,13 +1,13 @@
-#My portfolio
+# My portfolio
 
 This is a landing page for my portfolio.
 
-##Table of content
+## Table of content
 
-###Justus
+### Justus
 
-###Project
+### Projectgitgit
 
-###About me
+### About me
 
-###contacts
+### contacts

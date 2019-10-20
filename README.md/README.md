@@ -6,7 +6,7 @@ This is a landing page for my portfolio.
 
 ### Justus
 
-### Projectgitgit
+### Project
 
 ### About me
 

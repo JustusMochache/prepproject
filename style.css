@@ -3,10 +3,11 @@
   margin: 0;
   padding: 0;
 }
-
-body {
-  font-family: "Miriam Libre", sans-serif;
-  font-size: 17px;
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  body {
+    font-family: "Miriam Libre", sans-serif;
+    font-size: 17px;
+  }
 }
 
 #myVideo {
@@ -115,7 +116,6 @@ footer {
 .content .heading .sub {
   font-size: 25px;
 }
-
 #awesome {
   color: black;
   display: flex;
@@ -299,6 +299,12 @@ h2 {
 #description1 {
   letter-spacing: 7px;
 }
+@media screen and (min-width: 480px) {
+  .block {
+    z-index: 10;
+  }gi
+}
+
 .block {
   z-index: 10;
 }

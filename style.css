@@ -210,3 +210,45 @@ h2 {
 .hack {
   color: orangered;
 }
+.hobby {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 10%;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 7px;
+}
+
+.interest {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 10%;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 7px;
+}
+.pagani {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 10%;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 7px;
+}
+
+.code {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 10%;
+  /* align-items: center; */
+  /* text-align: center; */
+  font-size: 30px;
+  padding: 5%;
+}

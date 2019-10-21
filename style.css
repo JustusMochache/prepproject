@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Arial;
+  font-family: "Miriam Libre", sans-serif;
   font-size: 17px;
 }
 
@@ -21,7 +21,6 @@ body {
 .content {
   background: rgba(0, 0, 0, 0.6);
   color: #f1f1f1;
-
   padding: 90px;
 }
 
@@ -212,33 +211,45 @@ h2 {
 }
 .hobby {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+
+  display: flex;
   width: 50%;
-  margin: 10%;
+  margin: 30px auto;
   align-items: center;
-  text-align: center;
-  font-size: 30px;
+  justify-content: space-between;
+  margin-bottom: 200px;
   letter-spacing: 7px;
 }
 
 .interest {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+
+  display: flex;
   width: 50%;
-  margin: 10%;
+  margin: 30px auto;
   align-items: center;
-  text-align: center;
-  font-size: 30px;
+  justify-content: space-between;
+  margin-bottom: 200px;
   letter-spacing: 7px;
 }
 .pagani {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+
+  display: flex;
   width: 50%;
-  margin: 10%;
+  margin: 30px auto;
   align-items: center;
-  text-align: center;
-  font-size: 30px;
+  justify-content: space-between;
+  margin-bottom: 200px;
   letter-spacing: 7px;
 }
 
@@ -251,4 +262,43 @@ h2 {
   /* text-align: center; */
   font-size: 30px;
   padding: 5%;
+}
+.call {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+
+  display: flex;
+  width: 50%;
+  margin: 30px auto;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 200px;
+  letter-spacing: 7px;
+  font-weight: 30px;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+
+  display: flex;
+  width: 50%;
+  margin: 30px auto;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 200px;
+  letter-spacing: 7px;
+  font-weight: 30px;
+}
+
+.headerc,
+#description1 {
+  letter-spacing: 7px;
+}
+.block {
+  z-index: 10;
 }

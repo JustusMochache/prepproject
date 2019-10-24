@@ -302,9 +302,50 @@ h2 {
 @media screen and (min-width: 480px) {
   .block {
     z-index: 10;
-  }gi
+  }
 }
 
-.block {
-  z-index: 10;
+#conctacts {
+  text-align: center;
+}
+#contacts h4 {
+  font-size: 40px;
+}
+#contacts p {
+  font-size: 20px;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: orangered;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: orangered;
+}
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
